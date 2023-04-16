@@ -1,0 +1,32 @@
+{
+  "name": "codex-theme",
+  "displayName": "Codex Theme",
+  "description": "Codex is a dark theme to help users to code more easily !",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "publisher": "deltim",
+  "author": {
+  "name": "Timothy Deletrez",
+  "email": "deletrez.timothy@gmail.com",
+  "url": "https://github.com/deltim/codex-theme"
+},
+  "categories": [
+    "Themes"
+  ],
+  "icon": "logo.png",
+  "galleryBanner": {
+  "color": "#1e1e1e",
+  "theme": "dark"
+},
+  "contributes": {
+    "themes": [
+      {
+        "label": "Codex Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Codex Theme-color-theme.json"
+      }
+    ]
+  }
+}
